@@ -4,6 +4,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Interactive Process</title>
     <style>
+        body {
+            background-color: #34495e;
+            color: white; /* Optional: change text color to improve contrast */
+            font-family: Arial, sans-serif; /* Optional: change font for consistency */
+            margin: 0;
+            padding: 0;
+        }
         .contact-icons {
             display: flex;
             gap: 10px;
@@ -18,13 +25,19 @@
             height: 100%;
             display: block;
         }
+        .contact-message {
+            color: white; /* Ensure text is visible against the dark background */
+        }
+        .footer-text {
+            color: white; /* Ensure text is visible against the dark background */
+        }
     </style>
 </head>
 <body>
     <h1>Interactive the process Eng. Tarek Mohamed</h1>
 
-<iframe src="https://drive.google.com/file/d/1lfhkw4Cknd3SQhaW91y_p4xAcla4UDfk/preview" width="640" height="480" allow="autoplay"></iframe>  
-<p class="contact-message">لو واجهتك مشكلة ابعتلي</p>
+    <iframe src="https://drive.google.com/file/d/1lfhkw4Cknd3SQhaW91y_p4xAcla4UDfk/preview" width="640" height="480" allow="autoplay"></iframe>  
+    <p class="contact-message">لو واجهتك مشكلة ابعتلي</p>
     <div class="contact-icons">
         <a href="https://www.facebook.com/mamro8529?mibextid=ZbWKwL" title="Facebook">
             <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" alt="Facebook Icon">
